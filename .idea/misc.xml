@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ninot/AndroidStudioProjects/PrimeraApp/app/src/main/res/drawable/mainactivity_button.xml" value="0.16" />
+        <entry key="..\:/Users/ninot/AndroidStudioProjects/PrimeraApp/app/src/main/res/drawable/ripple.xml" value="0.23" />
+        <entry key="..\:/Users/ninot/AndroidStudioProjects/PrimeraApp/app/src/main/res/layout/activity_display_home.xml" value="0.3577023498694517" />
+        <entry key="..\:/Users/ninot/AndroidStudioProjects/PrimeraApp/app/src/main/res/layout/activity_display_message.xml" value="0.264" />
+        <entry key="..\:/Users/ninot/AndroidStudioProjects/PrimeraApp/app/src/main/res/layout/activity_main.xml" value="0.2573309395571514" />
+        <entry key="..\:/Users/ninot/AndroidStudioProjects/PrimeraApp/app/src/main/res/layout/button_shape.xml" value="0.1" />
+        <entry key="..\:/Users/ninot/AndroidStudioProjects/PrimeraApp/app/src/main/res/layout/coin_item_list.xml" value="0.536" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

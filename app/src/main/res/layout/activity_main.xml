@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/green">-->
+
+    <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent">-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/imageView"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:scaleX=".7"-->
+    <!--                android:scaleY=".7"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:srcCompat="@drawable/ic_group_fill0_wght400_grad0_opsz48" />-->
+
+    <!--            <ImageButton-->
+    <!--                android:id="@+id/imageButton"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:backgroundTint="@color/green"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:layout_constraintVertical_bias="0.0"-->
+    <!--                app:srcCompat="@drawable/ic_menu_fill0_wght400_grad0_opsz48"-->
+    <!--                app:tint="@color/blue" />-->
+
+    <!--            <androidx.appcompat.widget.Toolbar-->
+    <!--                android:id="@+id/myToolbar"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="?attr/actionBarSize"-->
+    <!--                android:background="@color/green"-->
+    <!--                android:elevation="0dp"-->
+    <!--                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintEnd_toStartOf="@+id/imageButton"-->
+    <!--                app:layout_constraintHorizontal_bias="0.0"-->
+    <!--                app:layout_constraintStart_toEndOf="@+id/imageView"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+    <!--                app:title="URGAdmin"-->
+    <!--                app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium"-->
+    <!--                app:titleTextColor="@color/blue" />-->
+
+    <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#263143"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/green"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="30"
+            android:shadowColor="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/green"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:shadowColor="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:minWidth="240dp"
+            android:minHeight="100dp"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elevation="1dp"
+                android:onClick="login"
+                android:text="Login"
+                android:foreground="@drawable/ripple"
+                android:textColor="#263143"
+                android:backgroundTint="@color/green"
+                android:textSize="20sp"
+                android:background="@drawable/mainactivity_button"
+                />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="15dp"
+                android:layout_weight="1"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonRegister"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#1D232D"
+                android:elevation="1dp"
+                android:onClick="createAccount"
+                android:text="Register"
+                android:foreground="@drawable/ripple"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:background="@drawable/mainactivity_button"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

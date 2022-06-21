@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635435908567",
+    "project_id": "primeraappandroid-c16ff",
+    "storage_bucket": "primeraappandroid-c16ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635435908567:android:feae0c5b27265385a5df92",
+        "android_client_info": {
+          "package_name": "com.example.primeraapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635435908567-j2ko3egicvj1nbkh1ifsqo4qagn5vgka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBopA8ZY1Aly4gbNt8TZt6peH3ujURP05g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635435908567-j2ko3egicvj1nbkh1ifsqo4qagn5vgka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
